@@ -1,20 +1,20 @@
-//#include<stdio.h>
-//int main()
-//{
-//    double arr[5];
-//    double avg=0;
-//    int j;
-//    {
-//        for (j = 0; j < 5; j++)
-//        {
-//            scanf_s("%.2lf", &arr[j]);
-//            avg += arr[j];
-//        }
-//        printf("%.2lf", avg/ 5);
-//    }
-//    return 0;
-//    
-//}
+#include<stdio.h>
+int main()
+{
+    double arr[5];
+    double avg=0;
+    int j;
+    {
+        for (j = 0; j < 5; j++)
+        {
+            scanf_s("%.2lf", &arr[j]);
+            avg += arr[j];
+        }
+        printf("%.2lf", avg/ 5);
+    }
+    return 0;
+    
+}
 //#include<stdio.h>
 //int main()
 //{
